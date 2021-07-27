@@ -8,6 +8,10 @@
 # who gave me the code
 
 
+
+
+### GOODNESS OF FIT ###
+
 #This function was given to be from Patrick Filippi and is used to
 #calculate summary statistics of OBS vs PRED - it also plots the 
 #results. I have adapted it below to include a title in the plot
@@ -51,5 +55,7 @@ goof2 = function (Observed, Predicted, plottitle,
   gf <- data.frame(coefs_tmp[, coefficient])
   return(gf)
 }
+
+
 
 
